@@ -10360,7 +10360,7 @@ body.modal-open {
 	margin-top: 80px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 80px 0 0 0;
+	padding: 40px 0 0 0;
 	border-top: 1px solid rgba(134, 134, 134, 0.05);
 }
 @media (max-width: 1200px) {

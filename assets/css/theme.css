@@ -10396,7 +10396,7 @@ body.modal-open {
 
 /* footer logo */
 #footer-logo {
-	margin: 15px 0 35px 0;
+	margin: 1px 0 3px 0;
 }
 
 #footer-logo .logo-light {
@@ -10432,11 +10432,11 @@ body.modal-open {
 
 /* footer social buttons */
 #footer .social-buttons {
-	margin-bottom: 20px;
+	margin-bottom: 2px;
 }
 @media (min-width: 992px) {
 	#footer .social-buttons {
-		text-align: right;
+		/*text-align: right;*/
 	}
 }
 
@@ -10467,7 +10467,7 @@ body.modal-open {
 }
 @media (max-width: 768px) {
 	.footer-bottom {
-		padding: 20px 0 40px 0;
+		padding: 20px 0 20px 0;
 	}
 }
 
@@ -10528,10 +10528,10 @@ body.modal-open {
 	display: none;
 	bottom: 20px;
 	right: 20px;
-	width: 34px;
-	height: 34px;
-	line-height: 34px;
-	background-color: rgba(169, 169, 169, 0.4);
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: rgb(12 97 130);
 	text-align: center;
 	font-size: 16px;
 	color: #FFF;
@@ -10541,7 +10541,7 @@ body.modal-open {
 }
 @media (max-width: 1560px) {
 	.scrolltotop {
-		bottom: 70px;
+		bottom: 12px;
 	}
 }
 @media (max-width: 992px) {

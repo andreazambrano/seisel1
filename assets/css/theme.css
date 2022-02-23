@@ -9325,8 +9325,8 @@ body.modal-open {
 
 /* Button default */
 .btn-default {
-	color: #000;
-	background-color: rgba(189, 189, 189, 0.25);
+	color: #fff;
+    background-color: rgb(12 97 130);
 	border-color: transparent;
 }
 .btn-default:hover,

@@ -9899,7 +9899,7 @@ body.modal-open {
 .btn-white-bordered {
 	color: #FFF;
 	background-color: transparent;
-	border: 2px solid #FFF;
+	border: 2px solid #0c6182;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -9918,9 +9918,9 @@ body.modal-open {
 .open > .dropdown-toggle.btn-white-bordered.focus,
 .open > .dropdown-toggle.btn-white-bordered:focus,
 .open > .dropdown-toggle.btn-white-bordered:hover {
-	color: #333;
-	background-color: #FFF;
-	border-color: #FFF;
+	color: #fff;
+	background-color: #0c6182;
+	border-color: #0c6182;
 }
 
 /* Button link */

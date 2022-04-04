@@ -2097,7 +2097,8 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 .isotope-item.iso-height-1 > a,
 .isotope-item.iso-height-1 > article {
 	display: block;
-	padding-bottom: 70%;
+	padding-bottom: 60%;
+	padding: 70px;
 }
 
 /* isotope item height-2 (use class "iso-height-2") */
@@ -2283,8 +2284,11 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 .isotope.gutter-2 { margin-left: -1.5%; }
 
 /* gutter-3 */
-.isotope.gutter-3 .isotope-item { padding: 0 0 2.5% 2.5%; }
-.isotope.gutter-3 { margin-left: -2.5%; }
+.isotope.gutter-3 .isotope-item { }
+.isotope.gutter-3 { margin-left: 5.5%;
+    margin-right: 0.5%;
+ }
+
 
 
 /* isotope columns 
@@ -2296,10 +2300,19 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 	width: 50%;
 }
 .isotope.col-3 .isotope-item {
-	width: 33.33333333%;
+	width: 28%;
+    background-color: #9e9e9e36;
+   border-radius: 0 20px 20px;
+    margin: 0 5px 30px;
+    padding: 20px 20px 25px;
+
 }
 .isotope.col-4 .isotope-item {
-	width: 25%;
+	width: 22%;
+	background-color: #9e9e9e36;
+   border-radius: 0 20px 20px;
+    margin: 0 5px 30px;
+    padding: 20px 20px 25px;
 }
 .isotope.col-5 .isotope-item {
 	width: 20%;
@@ -2319,7 +2332,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 	width: 50%;
 }
 .isotope.col-3 .grid-sizer {
-	width: 33.33333333%;
+	width: 30%;
 }
 .isotope.col-4 .grid-sizer {
 	width: 25%;
@@ -2581,10 +2594,11 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 .iso-height-1 .gallery-list-item .gl-item-image,
 .iso-height-2 .gallery-list-item .gl-item-image {
 	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    border-radius: 0 20px 20px;
 }
 .gallery-list-item .gl-item-image,
 .iso-height-1 .gallery-list-item .gl-item-image,
@@ -2609,9 +2623,9 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 .gl-item-info {
 	position: relative;
 	width: 100%;
-	height: 55px;
+	height: 90px;
 	line-height: 1.4;
-	padding: 15px 75px 0 20px;
+	padding: 15px 25px 5px 25px;
 
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -2663,10 +2677,10 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 	display: block;
 	margin-top: 6px;
 	font-size: 13px;
-	color: #AAA;
+	color:  #565656;
 }
 .gl-item-category a {
-	color: #AAA;
+	color:  #565656;
 }
 .gl-item-category a:hover {
 	opacity: .8;

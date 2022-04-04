@@ -2302,9 +2302,9 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 .isotope.col-3 .isotope-item {
 	width: 28%;
     background-color: #9e9e9e36;
-   border-radius: 0 20px 20px;
+   border-radius: 20px;
     margin: 0 5px 30px;
-    padding: 20px 20px 45px;
+    padding: 5px 20px 64px;
 
 }
 .isotope.col-4 .isotope-item {
@@ -2594,11 +2594,11 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 .iso-height-1 .gallery-list-item .gl-item-image,
 .iso-height-2 .gallery-list-item .gl-item-image {
 	position: absolute;
-	top: 0px;
-    bottom: 0;
-    left: 0px;
-    right: 0px;
-    border-radius: 0 20px 20px;
+	top: -9px;
+    bottom: -17px;
+    left: -9px;
+    right: -9px;
+    border-radius: 20px;
 
 }
 .gallery-list-item .gl-item-image,
@@ -2626,7 +2626,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 	width: 100%;
 	height: 90px;
 	line-height: 1.4;
-	padding: 15px 25px 5px 25px;
+	padding: 35px 25px 5px 25px;
 
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;

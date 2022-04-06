@@ -3848,6 +3848,8 @@ body.header-transparent-on .gl-carousel-wrap.no-padding .owl-carousel.cc-height-
 	display: block;
 	overflow: hidden;
 	background-color: rgba(138, 138, 138, 0.11);
+	padding: 5px;
+
 }
 
 /* gallery single item image */

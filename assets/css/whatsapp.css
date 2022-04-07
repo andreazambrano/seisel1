@@ -4,7 +4,7 @@
 	height:50px;
 	bottom:15px;
 	right:40px;
-	/*left: 15px;*/
+	left: 15px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -20,5 +20,5 @@
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:12px;
 }
